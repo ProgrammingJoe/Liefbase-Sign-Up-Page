@@ -16,17 +16,6 @@ body {
   left: 4%;
 }
 
-.toolbar {
-  position: absolute;
-  top: 4%;
-  right: 4%;
-}
-.toolbar-item {
-  display: inline-block;
-  padding: 0 10px;
-  line-height: 50px;
-}
-
 .intro {
   position: relative;
   width: 75vw;
@@ -44,23 +33,4 @@ body {
   background-color: green;
   padding: 12px;
   display: inline-block;
-}
-
-
-.footer {
-  padding: 20px 0;
-}
-.footer p {
-  margin: 0;
-}
-.footer-left {
-  position: relative;
-  left: 4%;
-  display: inline;
-}
-.footer-right {
-  position: relative;
-  right: 4%;
-  float: right;
-  display: inline;
 }
