@@ -13,15 +13,16 @@ body {
 .branding {
   position: absolute;
   top: 4%;
-  left: 4%;
+  left: 8%;
 }
 
 .intro {
   position: relative;
   width: 75vw;
-  margin: auto;
+  margin-left: 8%;
   top: 35%;
   padding-right: 80px;
+  padding-left: 20px;
 }
 
 .get-started {
@@ -33,4 +34,21 @@ body {
   background-color: green;
   padding: 12px;
   display: inline-block;
+}
+
+@media only screen and (max-width: 500px) {
+    .intro {
+        top: 25%;
+        padding: 0px;
+        margin-left: 8%;
+    }
+    .branding {
+      margin: auto;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+     .intro {
+         top: 18%;
+     }
 }
