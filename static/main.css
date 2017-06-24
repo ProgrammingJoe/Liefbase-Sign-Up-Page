@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 .landing-page {
@@ -16,13 +17,43 @@ body {
   left: 8%;
 }
 
+.column {
+  width: 50%;
+}
+.forms {
+  float: right;
+  width: 35%;
+}
+.info {
+  float: left;
+  width: 61%;
+  margin-right: 4%;
+  min-width: 351px;
+}
+.field {
+  width: 100%;
+  height: 24px;
+  border-radius: 2px;
+  border: 1px solid grey;
+}
+.submit {
+  float: right;
+  height: 26px;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  background-color: darkgray;
+}
+.submit:hover {
+  cursor: pointer;
+}
+
 .intro {
   position: relative;
   width: 75vw;
   margin-left: 8%;
   top: 35%;
-  padding-right: 80px;
-  padding-left: 20px;
 }
 
 .get-started {
@@ -36,19 +67,19 @@ body {
   display: inline-block;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 768px) {
     .intro {
         top: 25%;
         padding: 0px;
         margin-left: 8%;
     }
-    .branding {
-      margin: auto;
+    .column, .forms {
+      width: 100%;
     }
 }
 
-@media only screen and (max-width: 400px) {
-     .intro {
-         top: 18%;
-     }
+@media only screen and (max-width: 450px) {
+    .intro {
+        top: 18%;
+    }
 }

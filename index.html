@@ -12,18 +12,27 @@
     </p>
 
     <div class="intro">
-       <p class="header">
-         Your hub for managing relief efforts.
-       </p>
-       <p class="sub-header">
-         A communication and collaboration platform for disaster relief and humanitarian efforts.
-       </p>
-       <p class="email-text">Enter your e-mail below to be notified on updates and the release!</p>
-       <form action="https://formspree.io/liefbaselanding@gmail.com"
-             method="POST">
-          <input type="email" name="email">
-          <input type="submit" value="Subscribe">
-       </form>
+      <div class="info column">
+        <p class="header">
+          Your hub for managing relief efforts.
+        </p>
+        <p class="sub-header">
+          A communication and collaboration platform for disaster relief and humanitarian efforts.
+        </p>
+      </div><div class="forms column">
+        <p class="email-text">Enter your e-mail below to be notified on updates and the release!</p>
+        <form action="https://formspree.io/liefbaselanding@gmail.com"
+              method="POST">
+           <p class="field-label">First Name</p>
+           <input type="firstname" class="field" name="firstname">
+           <p class="field-label">Last Name</p>
+           <input type="lastname" class="field" name="lastname">
+           <p class="field-label">Email</p>
+           <input type="email" class="field" name="email">
+         </br>
+           <input type="submit" class="submit" value="Subscribe">
+        </form>
+      </div>
     </div>
   </div>
 
