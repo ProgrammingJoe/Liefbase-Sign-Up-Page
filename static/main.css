@@ -8,7 +8,7 @@ body {
   height: 100vh;
   max-width: 100%;
   max-height: 100%;
-  background-color: lightgrey;
+  background-image: -webkit-linear-gradient(291deg, white 50%, #3E688E);
 }
 
 .branding {
