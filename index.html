@@ -3,35 +3,54 @@
 <head>
   <link href="static/main.css" rel="stylesheet">
   <link href="static/fonts.css" rel="stylesheet">
+	<link rel="stylesheet" href="static/font-awesome-4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
   <div class="landing-page">
-    <p class="branding">
-      liefbase
-    </p>
 
-    <div class="intro">
+    <div>
       <div class="info column">
-        <p class="header">
-          Your hub for managing relief efforts.
-        </p>
-        <p class="sub-header">
-          A communication and collaboration platform for disaster relief and humanitarian efforts.
-        </p>
+				<div class="middle">
+	        <div class="inner">
+		        <p class="branding">
+		          liefbase
+		        </p>
+		        <p class="header">
+		          Your hub for managing relief efforts.
+		        </p>
+		        <p class="sub-header">
+		          A communication and collaboration platform for disaster relief and humanitarian efforts.
+		        </p>
+						<p class="copyright-light">
+							&#169; liefbase 2017
+						</p>
+	        </div>
+				</div>
       </div><div class="forms column">
-        <p class="email-text">Enter your e-mail below to be notified on updates and the release!</p>
-        <form action="https://formspree.io/liefbaselanding@gmail.com"
-              method="POST">
-           <p class="field-label">First Name</p>
-           <input type="firstname" class="field" name="firstname">
-           <p class="field-label">Last Name</p>
-           <input type="lastname" class="field" name="lastname">
-           <p class="field-label">Email</p>
-           <input type="email" class="field" name="email">
-         </br>
-           <input type="submit" class="submit" value="Subscribe">
-        </form>
+        <div class="middle">
+            <div class="inner">
+							<div class="form-container">
+		            <p class="email-text">Get notified on our release!</p>
+		            <form action="https://formspree.io/liefbaselanding@gmail.com"
+		                  method="POST">
+		               <!-- <p class="field-label">First Name</p> -->
+		               <input type="firstname" placeholder="First Name" class="field" name="firstname">
+		               <!-- <p class="field-label">Last Name</p> -->
+		               <input type="lastname" placeholder="Last Name" class="field" name="lastname">
+		               <!-- <p class="field-label">Email</p> -->
+		               <input type="email" placeholder="Email" class="field" name="email">
+		             </br>
+		               <button type="submit" class="submit">
+									 <span>Send me updates</span><i class="fa fa-envelope-o" aria-hidden="true"></i>
+								 </button>
+		            </form>
+						  </div>
+							<p class="copyright-dark">
+								&#169; liefbase 2017
+							</p>
+            </div>
+        </div>
       </div>
     </div>
   </div>
