@@ -15,17 +15,13 @@ p {
   position: absolute;
 }
 
-.field-label {
-  margin: 10px 0 2px 0;
-}
-
 .header {
-  font-size: 52px;
+  font-size: 36px;
   color: white;
 }
 
 .sub-header {
-  font-size: 28px;
+  font-size: 26px;
   color: white;
 }
 
