@@ -1,10 +1,15 @@
 @font-face {
-  font-family: 'Roboto';
-  src: url('Roboto/Roboto-Light.ttf');
+  font-family: 'Roboto-Regular';
+  src: url('Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('Roboto/Roboto-Light.ttf');
 }
 
 p {
-  font-family: 'Roboto';
+  font-family: 'Roboto-Regular';
 }
 
 .branding {
@@ -21,6 +26,7 @@ p {
 }
 
 .sub-header {
+  font-family: 'Roboto-Light';
   font-size: 26px;
   color: white;
 }
