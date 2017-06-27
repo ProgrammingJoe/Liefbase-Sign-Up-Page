@@ -1,6 +1,8 @@
 @font-face {
   font-family: 'Roboto';
   src: url('Roboto/Roboto-Light.ttf');
+  src: url('Roboto/Roboto-Regular.ttf');
+  
 }
 
 p {
@@ -21,6 +23,7 @@ p {
 }
 
 .sub-header {
+  font-family: Roboto-Light;
   font-size: 26px;
   color: white;
 }
