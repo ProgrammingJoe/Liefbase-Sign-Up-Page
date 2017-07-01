@@ -66,11 +66,6 @@ input {
     padding-bottom: 1px;
 }
 
-.fa-envelope-o {
-	margin-left: 12px;
-    margin-right: 6px;
-}
-
 .button {
   font-size: 20px;
   border-radius: 6px;
@@ -122,7 +117,7 @@ input {
           animation-fill-mode: both;
         }
     
-        .animated2 {
+        .animated--slow {
           animation-duration: 1.9s;
           animation-fill-mode: both;
         }
@@ -165,7 +160,7 @@ input {
           animation-duration: .7s;
         }
 
-        .fade-in.one {
+        .fade-in.fade-in--fast {
           -webkit-animation-delay: 0.1s;
           -moz-animation-delay: 0.1s;
           animation-delay: 0.1s;
@@ -229,17 +224,17 @@ input {
         }
             
     
-        .animated2 {
+        .animated--slow {
           animation-duration: 1s;
           animation-fill-mode: both;
         }
     
-        .animated3 {
+        .animated--turtle-slow {
           animation-duration: 3s;
           animation-fill-mode: both;
         }
     
-        @keyframes fadeInUp2 {
+        @keyframes fadeInUp--delay {
           from {
             opacity: 0;
             transform: translate3d(0, 100%, 0);
@@ -251,8 +246,8 @@ input {
           }
         }
 
-        .fadeInUp2 {
-          animation-name: fadeInUp2;
+        .fadeInUp--delay {
+          animation-name: fadeInUp--delay;
         }
 
 
@@ -278,13 +273,13 @@ input {
           animation-duration: .7s;
         }
 
-        .fade-in.one {
+        .fade-in.fade-in--fast {
           -webkit-animation-delay: 0.1s;
           -moz-animation-delay: 0.1s;
           animation-delay: 0.1s;
         }
     
-        .fade-in.two {
+        .fade-in.fade-in--slow {
           -webkit-animation-delay: 0.4s;
           -moz-animation-delay: 0.4s;
           animation-delay: 0.4s;
