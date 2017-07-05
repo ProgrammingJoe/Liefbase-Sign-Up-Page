@@ -33,11 +33,13 @@ body {
   height: 28px;
   border: none;
   border-bottom: 1px solid #D1D1D1;
-	margin-bottom: 30px;
+  margin-bottom: 30px;
+  border-radius: 0;
 }
 .field:focus {
 	outline: none;
 	border-bottom: 2px solid var(--magic-blue);
+    border-radius: 0;
 }
 
 input {
